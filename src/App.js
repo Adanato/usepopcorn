@@ -39,7 +39,7 @@ function Search({ setQuery }) {
   }
   const inputEl = useRef(null);
 
-  useKey();
+  useKey("Enter");
   useEffect(
     function () {
       function callback(e) {
